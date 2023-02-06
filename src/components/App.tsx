@@ -1,9 +1,9 @@
-import "./App.css";
+import DashBoardPage from "../pages/dashboard";
 
 function App() {
   return (
-    <div className="App">
-      <p>Bike Details</p>
+    <div>
+      <DashBoardPage />
     </div>
   );
 }
