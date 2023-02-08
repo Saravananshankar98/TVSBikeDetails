@@ -1,26 +1,25 @@
 import InputBase from "@mui/material/InputBase";
-import { alpha, styled } from "@mui/material/styles";
-import { createTheme } from "@mui/material/styles";
+import { alpha, createTheme, styled } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
     primary: {
       main: "#151515",
       light: "#1b85d1",
-      contrastText: "#fff"
+      contrastText: "#fff",
     },
     success: {
-      main: "#37c277"
+      main: "#37c277",
     },
     error: {
-      main: "#d63737"
+      main: "#d63737",
     },
     warning: {
-      main: "#d69a37"
+      main: "#d69a37",
     },
     info: {
-      main: "#e4e446"
-    }
+      main: "#e4e446",
+    },
   },
 
   typography: {
@@ -28,91 +27,91 @@ const theme = createTheme({
     fontFamily: ["Suisse Int", "sans-serif"].join(","),
     h1: {
       fontSize: "36px",
-      "&.heading-1": {}
+      "&.heading-1": {},
     },
     h2: {
       fontSize: "28px",
-      "&.heading-2": {}
+      "&.heading-2": {},
     },
     h3: {
       fontSize: "22px",
-      "&.heading-3": {}
+      "&.heading-3": {},
     },
     h4: {
       fontSize: "20px",
-      "&.heading-4": {}
+      "&.heading-4": {},
     },
     h5: {
-      "&.heading-5": {}
+      "&.heading-5": {},
     },
     h6: {
       fontSize: 16,
       "&.heading-6": {},
       "&.h6-race-title": {
         fontSize: "16px",
-        fontWeight: 450
+        fontWeight: 450,
       },
       "&.h6-balance": {
         fontSize: "18px",
-        color: "#7f7f7f"
+        color: "#7f7f7f",
       },
       "&.h6-size-18": {
         fontSize: "18px",
-        fontWeight: 500
-      }
+        fontWeight: 500,
+      },
     },
     subtitle1: {
-      "&.subtitle-1": {}
+      "&.subtitle-1": {},
     },
     subtitle2: {
-      "&.subtitle-2": {}
+      "&.subtitle-2": {},
     },
     body1: {
       fontWeight: 300,
       "&.body-1": {},
       "&.font-small": {
-        fontSize: "14px"
+        fontSize: "14px",
       },
       "&.font-size-18": {
-        fontSize: "18px"
-      }
+        fontSize: "18px",
+      },
     },
     body2: {
       fontWeight: 300,
-      "&.body-2": {}
-    }
-  }
-})
+      "&.body-2": {},
+    },
+  },
+});
 
 theme.typography.h1 = {
-  [theme.breakpoints.down("md")]: {}
+  [theme.breakpoints.down("md")]: {},
 };
 theme.typography.h2 = {
-  [theme.breakpoints.down("md")]: {}
+  [theme.breakpoints.down("md")]: {},
 };
 theme.typography.h3 = {
-  fontSize: 22
+  fontSize: 22,
 };
 theme.typography.h4 = {
   fontSize: "20px",
-  fontWeight: 500
+  fontWeight: 500,
 };
 theme.typography.h5 = {
-  [theme.breakpoints.down("md")]: {}
+  [theme.breakpoints.down("md")]: {},
 };
 theme.typography.h6 = {
-  fontSize: 18
+  fontSize: 18,
 };
 theme.typography.body1 = {
   fontSize: 16,
   "&.small-text": {
-    fontSize: 15
+    fontSize: 15,
   },
   "&.range-section-body1": {
-    color: "rgba(21, 21, 21, 0.5)"
+    color: "rgba(21, 21, 21, 0.5)",
   },
   "&.font-small": {
-    fontSize: "14px"
+    fontSize: "14px",
   },
   "&.more-info": {
     fontSize: "12px",
@@ -121,21 +120,19 @@ theme.typography.body1 = {
       display: "flex",
       alignItems: "center",
       ".more-info-icon-space": {
-        marginRight: "5px"
-      }
-    }
+        marginRight: "5px",
+      },
+    },
   },
   "&.font-size-18": {
-    fontSize: "18px"
-  }
+    fontSize: "18px",
+  },
 };
 theme.typography.body2 = {
-  [theme.breakpoints.down("md")]: {}
+  [theme.breakpoints.down("md")]: {},
 };
 
 export default theme;
-
-
 
 export const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -179,12 +176,24 @@ export const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export const landingBox = {
-    width: "100%",
-    height: "100vh",
-    backgroundImage: `url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/Galleries/20191210112546_TVS-Apache-RTR-200.jpg&w=736&h=488&q=75&c=1)`,
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    position: "relative",
-    cursor: "pointer"
-  };
+  width: "100%",
+  height: "100vh",
+  backgroundImage: `url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/Galleries/20191210112546_TVS-Apache-RTR-200.jpg&w=736&h=488&q=75&c=1)`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  position: "relative",
+  cursor: "pointer",
+};
+
+export const dashboardBox = {
+  width: "100%",
+  paddingLeft: "260px",
+  marginTop: "64px",
+  backgroundImage: `url("https://storage.needpix.com/rsynced_images/red-blue-background-1518900764faz.jpg")`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  color: "whitesmoke",
+  position: "relative",
+  cursor: "pointer",
+};

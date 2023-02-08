@@ -1,10 +1,3 @@
-import ApacheRTR160 from "../assets/images/Apache-160.png";
-import Apache200 from "../assets/images/Apache-200-4V.png";
-import ApacheRR310 from "../assets/images/tvs-apache-rr310.png";
-import ApacheRTR180 from "../assets/images/TVS-Apache-RTR-180.png";
-import Radeon from "../assets/images/Tvs-Radeon.png";
-import Raider from "../assets/images/Tvs-Raider.png";
-
 export const TvsBikeDetailsDescriptions = [
   {
     BikeName: "TVS Apache RTR 160",
@@ -15,7 +8,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7000",
     KMPH: "45",
     Reviews: "795",
-    img: ApacheRTR160,
+    img: `https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/TVS-Apache-RTR-160-4V-130120211625.png`,
   },
   {
     BikeName: "TVS Raider",
@@ -26,7 +19,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7500",
     KMPH: "67",
     Reviews: "146",
-    img: Raider,
+    img: `https://www.tvsmotor.com/co/-/media/Feature/IB/Columbia/compressed-images/virtual-experience/Virtual-Experince/Raider/black.png`,
   },
   {
     BikeName: "TVS Radeon",
@@ -37,7 +30,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7750",
     KMPH: "42.95",
     Reviews: "61",
-    img: Radeon,
+    img: `https://images.carandbike.com/bike-images/colors/tvs/radeon/tvs-radeon-metal-black.png?v=1586757399`,
   },
   {
     BikeName: "TVS Apache RTR 180",
@@ -48,7 +41,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7000",
     KMPH: "40.5",
     Reviews: "277",
-    img: ApacheRTR180,
+    img: `https://imgd.aeplcdn.com/476x268/bw/models/tvs-apache-rtr-180-standard-156.jpg?20190103151915`,
   },
   {
     BikeName: "TVS Apache RR 310",
@@ -59,7 +52,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7700",
     KMPH: "33.1",
     Reviews: "221",
-    img: ApacheRR310,
+    img: `https://www.tvsmotor.com/assets/img/brands/apche-rr310/black-bike.png`,
   },
   {
     BikeName: "TVS Apache RTR 200",
@@ -70,6 +63,105 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7500",
     KMPH: "35",
     Reviews: "281",
-    img: Apache200,
+    img: `https://imgd.aeplcdn.com/1056x594/n/cw/ec/49725/tvs-apache-200-front-three-quarter4.jpeg?q=75`,
   },
+  {
+    BikeName: "TVS NTORQ 125",
+    Price: "87,135 -1.07",
+    CC: "124.8",
+    PS: "9.38",
+    nm: "10.5",
+    RPM: "7000",
+    KMPH: "54.33",
+    Reviews: "1451",
+    img:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8edFBi7nrQdtirBZAWiCcyFq0rYicTfJRIt_KA8dYEqG1Cz1eDUQfHL8eQZFo4fWe8VQ&usqp=CAU` ,
+  },
+  {
+    BikeName: "TVS iQube Electric",
+    Price: "1.60 -1.61",
+    ChargeTime: "04.06",
+    batteryCapacity: "4.56 KWH" ,
+    Range: "145 km/charge",
+    RPM: "4400",
+    KMPH: "82",
+    Reviews: "82",
+    img: `https://media.zigcdn.com/media/newcar/cars_13129/iqube-s_600x300.jpg`,
+  },
+  {
+    BikeName: "TVS Ronin",
+    Price: "1.49 -1.71",
+    CC: "225.9",
+    PS: "20.4",
+    nm: "18.25",
+    RPM: "7400",
+    KMPH: "42.95",
+    Reviews: "61",
+    img: `https://images.carandbike.com/bike-images/colors/tvs/ronin/tvs-ronin-lightning-black.png?v=1657259375`,
+  },
+  {
+    BikeName: "TVS Jupiter",
+    Price: "74,971-89,891",
+    CC: "109.7",
+    PS: "7.88",
+    nm: "7.25",
+    RPM: "7000",
+    KMPH: "64",
+    Reviews: "1648",
+    img: `https://5.imimg.com/data5/PE/RE/FM/GLADMIN-66729916/2-500x500-500x500.png`,
+  },
+  {
+    BikeName: "TVS Sport",
+    Price: "1 -1.02",
+    CC: "107.75",
+    PS: "8.82",
+    nm: "8.25",
+    RPM: "4500",
+    KMPH: "60",
+    Reviews: "360",
+    img:`https://bd.gaadicdn.com/processedimages/tvs/tvs-sport/640X309/tvs-sport63807c644f577.jpg?tr=w-270`,
+  },
+  {
+    BikeName: "TVS Star City Plus",
+    Price: "1 -1.01",
+    CC: "107.75",
+    PS: "8.82",
+    nm: "27.25",
+    RPM: "7500",
+    KMPH: "83.09",
+    Reviews: "349",
+    img: `https://images.carandbike.com/bike-images/colors/tvs/star-city-plus/tvs-star-city-plus-black-blue.png?v=1588055845`,
+  },
+  {
+    BikeName: "TVS Scooty Pep Plus",
+    Price: "63,835",
+    CC: "87.75",
+    PS: "5.82",
+    nm: "6.25",
+    RPM: "3500",
+    KMPH: "45.09",
+    Reviews: "222",
+    img: `https://images.carandbike.com/bike-images/colors/tvs/scooty-pep-plus/tvs-scooty-pep-plus-frosted-black.png?v=1585825583`,
+  },
+  {
+    BikeName: "TVS Scooty Zest",
+    Price: "71,707",
+    CC: "109.75",
+    PS: "8.82",
+    nm: "7.25",
+    RPM: "5500",
+    KMPH: "63.09",
+    Reviews:"88",
+    img:`https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/tvs-select-model-matte-black-1647954507830.jpg?q=75` ,
+  },
+  {
+    BikeName: "TVS XL 100",
+    Price: "44,995-56,681",
+    CC: "99.75",
+    PS: "4.82",
+    nm: "4.25",
+    RPM: "7500",
+    KMPH: "80.09",
+    Reviews:"244",
+    img: `https://www.tvsmotor.com/tvs-xl100/-/media/Brand-Pages/XL100/Features-Heavy-DutyKS/Style/optimized-images/Bold-Styling.png`,
+  }
 ];
