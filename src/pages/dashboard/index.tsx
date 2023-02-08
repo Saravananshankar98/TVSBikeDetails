@@ -5,16 +5,20 @@ import { selectBetting } from "./style";
 
 function DashBoardPage() {
   return (
-    <Box sx={{ paddingLeft: "260px", marginTop: "64px" }}>
+    <Box>
       <Grid>
         <Box sx={selectBetting}>
           {" "}
+          <Box>
           <Typography variant="h1">TVS Bikes</Typography>
+          </Box>
+          <br/>
           <Typography variant="h6">
             <Rating value={5} readOnly /> Avg Rating for TVS Bikes and Scooters
             based on 27591 reviews
           </Typography>
-          <Typography variant="h4">
+
+          <Typography variant="h6">
             TVS bikes price in India starts at Rs 45,241 for TVS XL100, which is
             the cheapest model. The most expensive TVS two wheeler is TVS Apache
             RR 310 priced at Rs 2.65 Lakh. The most popular models for TVS
@@ -33,9 +37,10 @@ function DashBoardPage() {
             BikeDekho App.Searching for <a href="/">TVS Scooters</a>?
           </Typography>
         </Box>
+        <br/>
       </Grid>
       <Typography variant="h2">TVS Bikes Price List 2023 in India </Typography>
-
+<br/>
       <CardBikes />
     </Box>
   );

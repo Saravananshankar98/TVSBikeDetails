@@ -1,73 +1,35 @@
 import AccountCircle from "@mui/icons-material/AccountCircle";
-import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
-import { Drawer, List, ListItem, ListItemText } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import { useState } from "react";
 import {
   Search,
   SearchIconWrapper,
   StyledInputBase
 } from "../../../themes/themes";
-// import { NavLink } from "react-router-dom";
-
-const models = {
-  Scooter: "Scooter",
-  MotorCycles: "MotorCycles",
-  Mopeds: "Mopeds",
-};
 
 function AppHeader() {
-  const [showOverLaySideBar, setShowOverLaySideBar] = useState(false);
-  const drawerWidth = 240;
-  const showSideBar = () => {
-    setShowOverLaySideBar(!showOverLaySideBar);
-  };
-
   return (
     <Box>
-      <Drawer
-        open={showOverLaySideBar}
-        onClose={() => showSideBar()}
-        sx={{
-          display: { xs: "none", sm: "block" },
-          "& .MuiDrawer-paper": {
-            boxSizing: "border-box",
-            width: drawerWidth,
-            paddingTop: {
-              md: "10px",
-            },
-          },
-        }}
-      >
-        <List>
-          {Object.keys(models).map((modelKey) => (
-            <ListItem>
-              <Box component="span" sx={{ textDecoration: "none" }}>
-                <ListItemText>{modelKey}</ListItemText>
-              </Box>
-            </ListItem>
-          ))}
-        </List>
-      </Drawer>
       <AppBar position="fixed">
-        <Toolbar>
-          <IconButton
-            size="small"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            onClick={showSideBar}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" component="div">
-            Bike Details
-          </Typography>
+        <Toolbar
+          sx={{
+            backgroundImage: `url("https://i.pinimg.com/originals/12/65/83/126583b1d1b536fb77f337f9b6620f30.jpg")`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            marginLeft: "250px",
+          }}
+        >
+          {/* <Box sx={{ paddingTop: "15px", paddingLeft: "10px" }}>
+            <img
+              src="https://www.pngfind.com/pngs/m/543-5431679_tvs-logo-png-vector-free-download-tvs-motors.png"
+              width="150"
+              height="50"
+              alt="TVS logo"
+            />
+          </Box> */}
 
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: "flex", alignItems: "flex-end" }}>
