@@ -4,7 +4,7 @@ export const buttonHover = {
   border: "solid 1px #183883",
   margin: "5px",
   "&:hover": {
-    backgroundColor: "#0d3858",
+    backgroundColor: "#183883",
     color: "#fff",
   },
 };

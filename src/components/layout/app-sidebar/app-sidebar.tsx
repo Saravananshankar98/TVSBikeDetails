@@ -4,8 +4,15 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import TreeItem from "@mui/lab/TreeItem";
 import TreeView from "@mui/lab/TreeView";
+import { useBikeDetailContext } from "../../context";
 
 function AppSideBar() {
+  const { bikeNameState } = useBikeDetailContext();
+  const [bikeName, setBikeName] = bikeNameState;
+  const handleBikeChange =(value: string) =>{
+    console.log(value);
+    setBikeName(bikeName===value?value:"");  
+  }
   return (
     <Drawer
       open
@@ -36,30 +43,29 @@ function AppSideBar() {
           aria-label="file system navigator"
           defaultCollapseIcon={<ExpandMoreIcon />}
           defaultExpandIcon={<ChevronRightIcon />}
-          sx={{ flexGrow: 1, maxWidth: 400, overflowY: "auto" }}
         >
           <TreeItem nodeId="1" label="Scooters">
-            <TreeItem nodeId="6" label="Jupiter" />
-            <TreeItem nodeId="7" label="Ntorq" />
-            <TreeItem nodeId="8" label="Zest 110" />
-            <TreeItem nodeId="9" label="Scooty Pep+" />
+            <TreeItem nodeId="6" label="Jupiter"  onClick={()=>handleBikeChange("Jupiter")} />
+            <TreeItem nodeId="7" label="Ntorq"  onClick={()=>handleBikeChange("Ntorq")}/>
+            <TreeItem nodeId="8" label="Zest 110"  onClick={()=>handleBikeChange("Zest 110")}/>
+            <TreeItem nodeId="9" label="Scooty Pep plus"  onClick={()=>handleBikeChange("Scooty Pep plus")}/>
           </TreeItem>
           <TreeItem nodeId="2" label="MotorCycles">
-            <TreeItem nodeId="10" label="Apache RR 310" />
-            <TreeItem nodeId="11" label="Ronin" />
-            <TreeItem nodeId="12" label="Apache RTR 160" />
-            <TreeItem nodeId="13" label="Apache RTR 180" />
-            <TreeItem nodeId="14" label="Apache RTR 200" />
-            <TreeItem nodeId="15" label="Raider" />
-            <TreeItem nodeId="16" label="Radeon" />
-            <TreeItem nodeId="17" label="Star City+" />
-            <TreeItem nodeId="18" label="Sport" />
+            <TreeItem nodeId="10" label="Apache RR 310"  onClick={()=>handleBikeChange("Apache RR 310")}/>
+            <TreeItem nodeId="11" label="Ronin"  onClick={()=>handleBikeChange("Ronin")}/>
+            <TreeItem nodeId="12" label="Apache RTR 160"  onClick={()=>handleBikeChange("Apache RTR 160")}/>
+            <TreeItem nodeId="13" label="Apache RTR 180"  onClick={()=>handleBikeChange("Apache RTR 180")}/>
+            <TreeItem nodeId="14" label="Apache RTR 200"  onClick={()=>handleBikeChange("Apache RTR 200")}/>
+            <TreeItem nodeId="15" label="Raider"  onClick={()=>handleBikeChange("Raider")}/>
+            <TreeItem nodeId="16" label="Radeon"  onClick={()=>handleBikeChange("Radeon")}/>
+            <TreeItem nodeId="17" label="Star City plus"  onClick={()=>handleBikeChange("Star City plus")}/>
+            <TreeItem nodeId="18" label="Sport"  onClick={()=>handleBikeChange("Sport")}/>
           </TreeItem>
           <TreeItem nodeId="3" label="Mopeds">
-            <TreeItem nodeId="19" label="XL 100" />
+            <TreeItem nodeId="19" label="XL 100"  onClick={()=>handleBikeChange("XL 100")}/>
           </TreeItem>
           <TreeItem nodeId="4" label="Electric">
-            <TreeItem nodeId="20" label="iQube" />
+            <TreeItem nodeId="20" label="iQube"  onClick={()=>handleBikeChange("iQube")}/>
           </TreeItem>
         </TreeView>
       </Box>
