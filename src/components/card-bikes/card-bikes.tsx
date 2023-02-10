@@ -11,9 +11,13 @@ import {
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { TvsBikeDetailsDescriptions } from "../../common/tvs-bike-details-descriptions";
+import { useBikeDetailContext } from "../context";
 import { BikeImages, buttonHover } from "./style";
 
 function CardBikes() {
+  const { bikeNameState } = useBikeDetailContext();
+  const [bikeName, setBikeName] = bikeNameState;
+console.log("bikeName",bikeName)
   return (
     <>
       <Grid
@@ -31,7 +35,6 @@ function CardBikes() {
                 mb: "10px",
                 width: "700px",
               }}
-              onClick={() => alert(bikeDetails.BikeName)}
             >
               <CardMedia
                 component="img"
@@ -74,7 +77,7 @@ function CardBikes() {
                 <CardActions>
                   <Button
                     sx={buttonHover}
-                    onClick={() => alert(bikeDetails.BikeName)}
+                    onClick={() => setBikeName(bikeDetails.BikeName)}
                   >
                     Know More
                   </Button>
