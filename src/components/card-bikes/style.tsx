@@ -28,3 +28,16 @@ export const BikeImages = {
     overflow: "hidden",
   },
 };
+
+export const cardBikeBox = {
+  width: "100%",
+  paddingLeft: "260px",
+  marginTop: "64px",
+  backgroundImage: `url("https://storage.needpix.com/rsynced_images/red-blue-background-1518900764faz.jpg")`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  // backgroundColor:"grey",
+  color: "whitesmoke",
+  position: "relative",
+  cursor: "pointer",
+};

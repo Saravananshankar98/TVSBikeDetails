@@ -1,6 +1,8 @@
-import { Grid, Rating, Typography } from "@mui/material";
+import { Button, Grid, Rating, Typography } from "@mui/material";
 import { Box } from "@mui/system";
+import { linkButtonDetails } from "../../common/social-media-icon";
 import CardBikes from "../../components/card-bikes/card-bikes";
+import { LinkButton } from "../bikes-collection/style";
 import { selectBetting } from "./style";
 
 function DashBoardPage() {
@@ -33,8 +35,28 @@ function DashBoardPage() {
         <br />
       </Grid>
       <Typography variant="h3">TVS Bikes Price List 2023 in India </Typography>
-      <br />
-      <CardBikes />
+      <Grid spacing={1} container sx={{ justifyContent: "center" }}>
+        {linkButtonDetails.map((value) => (
+          <Grid item>
+            <Button 
+            className={
+              value.selected ? "button-selected" : ""
+            }
+            sx={LinkButton}
+          //  className={value.selected ? "active" : ""}
+          >
+              {value.name}
+            </Button>
+          </Grid>
+        ))}
+      </Grid>
+      <br/>
+      <br/>
+     <Grid container spacing={3}>
+     <Box sx={{backgroundColor:"grey"}}>
+        <CardBikes />
+      </Box>
+     </Grid>
     </Box>
   );
 }

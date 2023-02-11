@@ -8,3 +8,7 @@ export const sidebarStyle = {
     mt: "100px",
   },
 };
+
+export const fontSize ={
+  fontSize:"18px"
+}
