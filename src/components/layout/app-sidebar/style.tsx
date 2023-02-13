@@ -10,5 +10,5 @@ export const sidebarStyle = {
 };
 
 export const fontSize ={
-  fontSize:"18px"
+  fontSize:"25px"
 }

@@ -5,37 +5,33 @@ import { linkButtonDetails } from "../../common/social-media-icon";
 import { TvsBikeDetailsDescriptions } from "../../common/tvs-bike-details-descriptions";
 import CardBikes from "../../components/card-bikes/card-bikes";
 import { LinkButton } from "./style";
-import { selectBetting } from "./style";
 
 function DashBoardPage() {
-  const [values, setValues] = useState({});
+  const [vehicleDetails, setVehicleDetails] = useState({});
   const [vehicleName, setVehicleName] = useState("Motor Cycles");
 
-  const handleFilterVehiclesChange = (value: any) => {
-    setVehicleName(value);
+  const handleFilterVehiclesChange = (modelName: any) => {
+    setVehicleName(modelName);
   };
 
   useEffect(() => {
-    const bikes = TvsBikeDetailsDescriptions.filter(
+    const filterBikeDetails = TvsBikeDetailsDescriptions.filter(
       (x) => x.varient === vehicleName
     );
-    setValues(bikes);
-  }, [values]);
+    setVehicleDetails(filterBikeDetails);
+  }, [vehicleName]);
 
   return (
     <Box>
       <Grid>
-        <Box sx={selectBetting}>
+        <Box>
           {" "}
-          <Box>
-            <Typography variant="h3">TVS Bikes</Typography>
-          </Box>
-          <br />
-          <Typography variant="h6">
+          <Typography variant="h2">TVS Bikes</Typography>
+          <Typography variant="body2">
             <Rating value={5} readOnly /> Avg Rating for TVS Bikes and Scooters
             based on 27591 reviews
           </Typography>
-          <Typography variant="h6">
+          <Typography variant="body2">
             TVS bikes price in India starts at Rs 45,241 for TVS XL100, which is
             the cheapest model. The most expensive TVS two wheeler is TVS Apache
             RR 310 priced at Rs 2.65 Lakh. The most popular models for TVS
@@ -50,24 +46,29 @@ function DashBoardPage() {
         </Box>
         <br />
       </Grid>
-      <Typography variant="h3">TVS Bikes Price List 2023 in India </Typography>
-      <Grid spacing={1} container sx={{ justifyContent: "center" }}>
-        {linkButtonDetails.map((value) => (
+      <Typography variant="h2">TVS Bikes Price List 2023 in India </Typography>
+      <Grid spacing={2} container sx={{ justifyContent: "center" }}>
+        {linkButtonDetails.map((modelName) => (
           <Grid item>
             <Button
-              className={vehicleName === value?.name ? "button-selected" : ""}
+              className={
+                vehicleName === modelName?.name ? "button-selected" : ""
+              }
               sx={LinkButton}
-              onClick={() => handleFilterVehiclesChange(value?.name)}
+              onClick={() => handleFilterVehiclesChange(modelName?.name)}
             >
-              {value.name}
+              {modelName.name}
             </Button>
           </Grid>
         ))}
       </Grid>
       <br />
-      <br />
-      <Grid container spacing={3} sx={{ backgroundColor: "grey" }}>
-        <CardBikes vehicleName={Object.values(values)} />
+      <Grid
+        container
+        spacing={2}
+        sx={{ backgroundColor: "grey", paddingTop: "10px" }}
+      >
+        <CardBikes vehicleDetails={Object.values(vehicleDetails)} />
       </Grid>
     </Box>
   );

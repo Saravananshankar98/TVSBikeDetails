@@ -1,12 +1,10 @@
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import SearchIcon from "@mui/icons-material/Search";
-import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
-import { Grid, Link } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import TestRide from "../../../pages/test-ride/test-ride";
 import {
   Search,
   SearchIconWrapper,
@@ -26,34 +24,48 @@ function AppHeader() {
           }}
         >
           <Search>
-              <SearchIconWrapper>
-                <SearchIcon />
-              </SearchIconWrapper>
-              <StyledInputBase
-                placeholder="Search…"
-                inputProps={{ "aria-label": "search" }}
-              />
-            </Search>
-          <Grid container md={12} sx={{textAlign:"center",justifyContent:"flex-end"}}>
-            <Grid xs={1} sx={{ justifyContent:"flex-end",paddingTop:"14px"}}>
-            test Ride
-            </Grid>
-            <Grid xs={1} sx={{justifyContent:"center",paddingTop:"14px", display:"flex"}}>
-              Book Vehicle
+            <SearchIconWrapper>
+              <SearchIcon />
+            </SearchIconWrapper>
+            <StyledInputBase
+              placeholder="Search…"
+              inputProps={{ "aria-label": "search" }}
+            />
+          </Search>
+          <Grid
+            container
+            md={12}
+            sx={{ textAlign: "center", justifyContent: "flex-end" }}
+          >
+            <Grid
+              xs={1}
+              sx={{ justifyContent: "flex-end", paddingTop: "10px" }}
+            >
+             <Typography variant="h5"> test Ride</Typography>
             </Grid>
             <Grid
-            xs={0.3} sx={{justifyContent:"flex-end"}}>
-          <Box>
-            <IconButton
-              size="large"
-              edge="end"
-              aria-label="account of current user"
-              aria-haspopup="true"
-              color="inherit"
+              xs={1.5}
+              sx={{
+                justifyContent: "center",
+                paddingTop: "10px",
+                display: "flex",
+              }}
             >
-              <AccountCircle />
-            </IconButton>
-          </Box>
+             <Typography variant="h5"> Book Vehicle</Typography> 
+            </Grid>
+            <Grid xs={0.4} sx={{ justifyContent: "flex-end" }}>
+              <Box>
+                <IconButton
+                  size="large"
+                  // edge="end"
+                  aria-label="account of current user"
+                  aria-haspopup="true"
+                  color="inherit"
+
+                >
+                  <AccountCircle />
+                </IconButton>
+              </Box>
             </Grid>
           </Grid>
         </Toolbar>

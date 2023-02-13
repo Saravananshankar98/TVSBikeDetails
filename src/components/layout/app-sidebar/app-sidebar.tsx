@@ -6,16 +6,33 @@ import TreeItem from "@mui/lab/TreeItem";
 import TreeView from "@mui/lab/TreeView";
 import { useBikeDetailContext } from "../../context";
 import { fontSize } from "./style";
+import Typography from "@mui/material/Typography";
+
+const MotorCyclesDetails = [
+  { id: "10", name: "Apache RR 310" },
+  { id: "11", name: "Ronin" },
+  { id: "12", name: "Apache RTR 160" },
+  { id: "13", name: "Apache RTR 180" },
+  { id: "14", name: "Apache RTR 200" },
+  { id: "15", name: "Raider" },
+  { id: "16", name: "Radeon" },
+  { id: "17", name: "Star City plus" },
+  { id: "18", name: "Sport" },
+];
+
+const scootersDetails = [
+  { id: "6", name: "Jupiter" },
+  { id: "7", name: "Ntorq" },
+  { id: "8", name: "Zest 110" },
+  { id: "9", name: "Scooty Pep plus" },
+];
 
 function AppSideBar() {
   const { bikeNameState } = useBikeDetailContext();
   const [bikeName, setBikeName] = bikeNameState;
-  const handleBikeChange =(value: string) =>{
-    console.log(value);
-    console.log("bikeName",bikeName);
-    setBikeName(""); 
-    console.log("bikeName22",bikeName);
-  }
+  const handleBikeChange = (value: string) => {
+    setBikeName("");
+  };
   return (
     <Drawer
       open
@@ -41,35 +58,45 @@ function AppSideBar() {
           alt="TVS logo"
         />
       </Box>
-      <Box sx={fontSize} >
+      <Box sx={fontSize}>
         <TreeView
           aria-label="file system navigator"
           defaultCollapseIcon={<ExpandMoreIcon />}
           defaultExpandIcon={<ChevronRightIcon />}
-          sx={{ flexGrow: 1, overflowY: "auto", fontWeight:"20px" }}
+          sx={{ flexGrow: 1, overflowY: "auto", fontWeight: "20px" }}
         >
-          <TreeItem  nodeId="1" label="Scooters">
-            <TreeItem nodeId="6" label="Jupiter"  onClick={()=>handleBikeChange("Jupiter")} />
-            <TreeItem nodeId="7" label="Ntorq"  onClick={()=>handleBikeChange("Ntorq")}/>
-            <TreeItem nodeId="8" label="Zest 110"  onClick={()=>handleBikeChange("Zest 110")}/>
-            <TreeItem nodeId="9" label="Scooty Pep plus"  onClick={()=>handleBikeChange("Scooty Pep plus")}/>
+          <TreeItem nodeId="1" label={<Typography variant="body1" className="font-size-16" > Scooters</Typography>}>
+            {scootersDetails.map((scooterName) => (
+              <TreeItem
+                sx={{ fontSize: "45px" }}
+                nodeId={scooterName.id}
+                label={<Typography variant="body1"  className="font-size-16" > {scooterName.name}</Typography>}
+                onClick={() => handleBikeChange(scooterName.name)}
+              />
+            ))}
           </TreeItem>
-          <TreeItem nodeId="2" label="MotorCycles">
-            <TreeItem nodeId="10" label="Apache RR 310"  onClick={()=>handleBikeChange("Apache RR 310")}/>
-            <TreeItem nodeId="11" label="Ronin"  onClick={()=>handleBikeChange("Ronin")}/>
-            <TreeItem nodeId="12" label="Apache RTR 160"  onClick={()=>handleBikeChange("Apache RTR 160")}/>
-            <TreeItem nodeId="13" label="Apache RTR 180"  onClick={()=>handleBikeChange("Apache RTR 180")}/>
-            <TreeItem nodeId="14" label="Apache RTR 200"  onClick={()=>handleBikeChange("Apache RTR 200")}/>
-            <TreeItem nodeId="15" label="Raider"  onClick={()=>handleBikeChange("Raider")}/>
-            <TreeItem nodeId="16" label="Radeon"  onClick={()=>handleBikeChange("Radeon")}/>
-            <TreeItem nodeId="17" label="Star City plus"  onClick={()=>handleBikeChange("Star City plus")}/>
-            <TreeItem nodeId="18" label="Sport"  onClick={()=>handleBikeChange("Sport")}/>
+          <TreeItem nodeId="2" label={<Typography variant="body1"  className="font-size-16" > MotorCycles</Typography>}>
+            {MotorCyclesDetails?.map((treeValue) => (
+              <TreeItem
+                nodeId={treeValue.id}
+                label={<Typography variant="body1"  className="font-size-16" > {treeValue.name}</Typography>}
+                onClick={() => handleBikeChange(treeValue.name)}
+              />
+            ))}
           </TreeItem>
-          <TreeItem nodeId="3" label="Mopeds">
-            <TreeItem nodeId="19" label="XL 100"  onClick={()=>handleBikeChange("XL 100")}/>
+          <TreeItem nodeId="3" label={<Typography variant="body1"  className="font-size-16" > Mopeds</Typography>}>
+            <TreeItem
+              nodeId="19"
+              label={<Typography variant="body1"  className="font-size-16" > XL 100</Typography>}
+              onClick={() => handleBikeChange("XL 100")}
+            />
           </TreeItem>
-          <TreeItem nodeId="4" label="Electric">
-            <TreeItem nodeId="20" label="iQube"  onClick={()=>handleBikeChange("iQube")}/>
+          <TreeItem nodeId="4" label={<Typography variant="body1"  className="font-size-16" > Electric</Typography>}>
+            <TreeItem
+              nodeId="20"
+              label={<Typography variant="body1" className="font-size-16" > iQube</Typography>}
+              onClick={() => handleBikeChange("iQube")}
+            />
           </TreeItem>
         </TreeView>
       </Box>

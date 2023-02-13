@@ -15,9 +15,10 @@ import Checkbox from "@mui/material/Checkbox";
 import { useBikeDetailContext } from "../context";
 import { BikeImages, buttonHover } from "./style";
 
-function CardBikes(vehicleName: any) {
+function CardBikes(vehicleFilterDetails: any) {
   const { bikeNameState } = useBikeDetailContext();
   const [bikeName, setBikeName] = bikeNameState;
+  
   return (
     <>
       <Grid
@@ -25,7 +26,7 @@ function CardBikes(vehicleName: any) {
         spacing={{ xs: 2, md: 2 }}
         columns={{ xs: 6, sm: 6, md: 12 }}
       >
-        {vehicleName?.vehicleName.map((bikeDetails: any) => (
+        {vehicleFilterDetails?.vehicleDetails?.map((bikeDetails: any) => (
           <Grid item xs={2} sm={6} md={6}>
             <Card
               sx={{
@@ -46,7 +47,7 @@ function CardBikes(vehicleName: any) {
                 <Grid container>
                   <Grid item xs={10}>
                     <CardContent sx={{ flex: "1 0 auto" }}>
-                      <Typography component="div" variant="h5">
+                      <Typography component="div" variant="h4">
                         {bikeDetails.BikeName}
                       </Typography>
                       <Typography variant="subtitle1">
