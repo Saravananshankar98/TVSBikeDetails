@@ -138,7 +138,7 @@ export const Search = styled("div")(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
   backgroundColor: alpha(theme.palette.common.white, 0.15),
-  '&:hover': {
+  ':hover': {
     backgroundColor: alpha(theme.palette.common.white, 0.25),
   },
   marginRight: theme.spacing(2),
@@ -173,17 +173,6 @@ export const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
   },
 }));
-
-export const landingBox = {
-  width: "100%",
-  height: "100vh",
-  backgroundImage: `url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/Galleries/20191210112546_TVS-Apache-RTR-200.jpg&w=736&h=488&q=75&c=1)`,
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center",
-  backgroundSize: "cover",
-  position: "relative",
-  cursor: "pointer",
-};
 
 export const dashboardBox = {
   width: "100%",

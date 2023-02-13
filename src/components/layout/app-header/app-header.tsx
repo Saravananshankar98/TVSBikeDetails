@@ -25,7 +25,7 @@ function AppHeader() {
             marginLeft: "250px",
           }}
         >
-          {/* <Search>
+          <Search>
               <SearchIconWrapper>
                 <SearchIcon />
               </SearchIconWrapper>
@@ -33,10 +33,9 @@ function AppHeader() {
                 placeholder="Search…"
                 inputProps={{ "aria-label": "search" }}
               />
-            </Search> */}
+            </Search>
           <Grid container md={12} sx={{textAlign:"center",justifyContent:"flex-end"}}>
             <Grid xs={1} sx={{ justifyContent:"flex-end",paddingTop:"14px"}}>
-           {/* < href="/TestRide"  underline="none"> */}
             test Ride
             </Grid>
             <Grid xs={1} sx={{justifyContent:"center",paddingTop:"14px", display:"flex"}}>

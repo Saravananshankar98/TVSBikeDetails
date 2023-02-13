@@ -3,7 +3,7 @@ export const buttonHover = {
   fontSize: "16px",
   border: "solid 1px #183883",
   margin: "5px",
-  "&:hover": {
+  ":hover": {
     backgroundColor: "#183883",
     color: "#fff",
   },
@@ -13,7 +13,7 @@ export const contactButton = {
   fontSize: "16px",
   top: "15px",
   width: "250px",
-  "&:hover": {
+  ":hover": {
     backgroundColor: "#0d3858",
     color: "#fff",
   },
@@ -23,7 +23,7 @@ export const BikeImages = {
   width: "350px",
   height: "250px",
   objectFit: "contain",
-  "&:hover": {
+  ":hover": {
     transform: "scale(1.1)",
     overflow: "hidden",
   },

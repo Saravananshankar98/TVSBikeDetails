@@ -45,7 +45,7 @@ function BikeDetailsPage() {
       {/* bike FEATURES */}
       <Box>
         <h2>Features</h2>
-        <Grid container sx={{ backgroundColor:"red", textAlign:"center", justifyContent:"center" }}>
+        <Grid container sx={{ textAlign:"center", justifyContent:"center" }}>
           <Box >
       <Tabs>
         <Tab label={"Performance"} ></Tab>
@@ -56,7 +56,7 @@ function BikeDetailsPage() {
           </Grid>
         <Grid container columns={{ xs: 6, sm: 6, md: 12 }}>
 
-          <Grid xs={5} sx={{ display: "flex", justifyContent: "left", backgroundColor:"green" }}>
+          <Grid xs={5} sx={{ display: "flex", justifyContent: "left" }}>
             <Box
               component="img"
               sx={BikeImages}

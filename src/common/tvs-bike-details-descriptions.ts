@@ -1,6 +1,7 @@
 export const TvsBikeDetailsDescriptions = [
   {
     BikeName: "TVS Apache RTR 160",
+    varient:"Motor Cycles",
     Price: "1.18 -1.25",
     CC: "159.7",
     PS: "16.04",
@@ -19,6 +20,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7500",
     KMPH: "67",
     Reviews: "146",
+    varient:"Motor Cycles",
     img: `https://www.tvsmotor.com/co/-/media/Feature/IB/Columbia/compressed-images/virtual-experience/Virtual-Experince/Raider/black.png`,
   },
   {
@@ -30,6 +32,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7750",
     KMPH: "42.95",
     Reviews: "61",
+    varient:"Motor Cycles",
     img: `https://images.carandbike.com/bike-images/colors/tvs/radeon/tvs-radeon-metal-black.png?v=1586757399`,
   },
   {
@@ -41,6 +44,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7000",
     KMPH: "40.5",
     Reviews: "277",
+    varient:"Motor Cycles",
     img: `https://imgd.aeplcdn.com/476x268/bw/models/tvs-apache-rtr-180-standard-156.jpg?20190103151915`,
   },
   {
@@ -52,6 +56,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7700",
     KMPH: "33.1",
     Reviews: "221",
+    varient:"Motor Cycles",
     img: `https://www.tvsmotor.com/assets/img/brands/apche-rr310/black-bike.png`,
   },
   {
@@ -63,6 +68,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7500",
     KMPH: "35",
     Reviews: "281",
+    varient:"Motor Cycles",
     img: `https://imgd.aeplcdn.com/1056x594/n/cw/ec/49725/tvs-apache-200-front-three-quarter4.jpeg?q=75`,
   },
   {
@@ -74,6 +80,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7000",
     KMPH: "54.33",
     Reviews: "1451",
+    varient:"Scooter",
     img:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8edFBi7nrQdtirBZAWiCcyFq0rYicTfJRIt_KA8dYEqG1Cz1eDUQfHL8eQZFo4fWe8VQ&usqp=CAU` ,
   },
   {
@@ -85,6 +92,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "4400",
     KMPH: "82",
     Reviews: "82",
+    varient:"Electric",
     img: `https://media.zigcdn.com/media/newcar/cars_13129/iqube-s_600x300.jpg`,
   },
   {
@@ -96,6 +104,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7400",
     KMPH: "42.95",
     Reviews: "61",
+    varient:"Motor Cycles",
     img: `https://images.carandbike.com/bike-images/colors/tvs/ronin/tvs-ronin-lightning-black.png?v=1657259375`,
   },
   {
@@ -107,6 +116,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7000",
     KMPH: "64",
     Reviews: "1648",
+    varient:"Scooter",
     img: `https://5.imimg.com/data5/PE/RE/FM/GLADMIN-66729916/2-500x500-500x500.png`,
   },
   {
@@ -118,6 +128,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "4500",
     KMPH: "60",
     Reviews: "360",
+    varient:"Motor Cycles",
     img:`https://bd.gaadicdn.com/processedimages/tvs/tvs-sport/640X309/tvs-sport63807c644f577.jpg?tr=w-270`,
   },
   {
@@ -129,6 +140,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7500",
     KMPH: "83.09",
     Reviews: "349",
+    varient:"Motor Cycles",
     img: `https://images.carandbike.com/bike-images/colors/tvs/star-city-plus/tvs-star-city-plus-black-blue.png?v=1588055845`,
   },
   {
@@ -140,6 +152,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "3500",
     KMPH: "45.09",
     Reviews: "222",
+    varient:"Scooter",
     img: `https://images.carandbike.com/bike-images/colors/tvs/scooty-pep-plus/tvs-scooty-pep-plus-frosted-black.png?v=1585825583`,
   },
   {
@@ -150,6 +163,7 @@ export const TvsBikeDetailsDescriptions = [
     nm: "7.25",
     RPM: "5500",
     KMPH: "63.09",
+    varient:"Scooter",
     Reviews:"88",
     img:`https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/tvs-select-model-matte-black-1647954507830.jpg?q=75` ,
   },
@@ -162,6 +176,7 @@ export const TvsBikeDetailsDescriptions = [
     RPM: "7500",
     KMPH: "80.09",
     Reviews:"244",
+    varient:"Mopeds",
     img: `https://www.tvsmotor.com/tvs-xl100/-/media/Brand-Pages/XL100/Features-Heavy-DutyKS/Style/optimized-images/Bold-Styling.png`,
   }
 ];

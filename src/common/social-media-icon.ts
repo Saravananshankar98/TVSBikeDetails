@@ -39,11 +39,9 @@ export const playStoreApp = [
   },
 ];
 
-export const linkButtonDetails =[
-  { name:"Bikes", selected: true},
-  { name:"Scooter",selected:false},
-  { name:"Motor Cycles",selected:false},
-  { name:"Mopeds",selected:false},
-  { name:"Electric",selected:false}
-  
-]
+export const linkButtonDetails = [
+  { name: "Scooter" },
+  { name: "Motor Cycles" },
+  { name: "Mopeds" },
+  { name: "Electric" },
+];

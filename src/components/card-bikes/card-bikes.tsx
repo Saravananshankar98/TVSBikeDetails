@@ -1,4 +1,5 @@
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import Favorite from "@mui/icons-material/Favorite";
+import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import {
   Box,
   Button,
@@ -10,14 +11,13 @@ import {
 } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import { TvsBikeDetailsDescriptions } from "../../common/tvs-bike-details-descriptions";
+import Checkbox from "@mui/material/Checkbox";
 import { useBikeDetailContext } from "../context";
 import { BikeImages, buttonHover } from "./style";
 
-function CardBikes() {
+function CardBikes(vehicleName: any) {
   const { bikeNameState } = useBikeDetailContext();
   const [bikeName, setBikeName] = bikeNameState;
-console.log("bikeName",bikeName)
   return (
     <>
       <Grid
@@ -25,7 +25,7 @@ console.log("bikeName",bikeName)
         spacing={{ xs: 2, md: 2 }}
         columns={{ xs: 6, sm: 6, md: 12 }}
       >
-        {TvsBikeDetailsDescriptions.map((bikeDetails, index) => (
+        {vehicleName?.vehicleName.map((bikeDetails: any) => (
           <Grid item xs={2} sm={6} md={6}>
             <Card
               sx={{
@@ -56,7 +56,10 @@ console.log("bikeName",bikeName)
                   </Grid>
                   <Grid item xs={2} sx={{ textAlign: "center" }}>
                     <Button sx={{ paddingTop: "10px", minWidth: "inherit" }}>
-                      <FavoriteIcon />
+                      <Checkbox
+                        icon={<FavoriteBorder />}
+                        checkedIcon={<Favorite />}
+                      />
                     </Button>
                   </Grid>
                 </Grid>
