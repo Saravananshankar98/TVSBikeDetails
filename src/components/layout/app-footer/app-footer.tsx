@@ -6,7 +6,7 @@ import {
   playStoreApp,
   socialMediaLink
 } from "../../../common/social-media-icon";
-import { contactButton } from "../../card-bikes/style";
+// import { contactButton } from "../../card-bikes/style";
 import { footerStyle, socialMediaImage } from "./style";
 
 function AppFooter() {
@@ -81,9 +81,10 @@ function AppFooter() {
             </p>
           </Grid>
 
-          <Grid xs={3} sx={{ marginTop: "10px", justifyContent: "left" }}>
+          <Grid sx={{ marginTop: "10px", justifyContent: "center" }}>
             <Button
-              sx={{ color: "white" }}
+              // sx={{ color: "white" }}
+              className="customer-care-style"
               href="mailto:customercare@tvsmotor.com"
               target="_blank"
             >
@@ -91,7 +92,7 @@ function AppFooter() {
             </Button>{" "}
             <br />
             <Button
-              sx={contactButton}
+              className="contact-button"
               href="mailto:customercare@tvsmotor.com"
               target="_blank"
             >
@@ -122,9 +123,12 @@ function AppFooter() {
             </Typography>
           </Grid>
 
-          <Grid xs={7} sx={{ display: "flex", justifyContent: "left" }}>
+          <Grid
+            xs={7}
+            sx={{ display: "flex", justifyContent: "center", width: "50px " }}
+          >
             {socialMediaLink.map((social) => (
-              <Button href={social.link} target="_blank">
+              <Button sx={{ width: "60px" }} href={social.link} target="_blank">
                 <Avatar alt={social.alt} src={social.icon} />
               </Button>
             ))}

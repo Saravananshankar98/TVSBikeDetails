@@ -8,16 +8,6 @@ export const buttonHover = {
     color: "#fff",
   },
 };
-export const contactButton = {
-  backgroundColor: "white",
-  fontSize: "16px",
-  top: "15px",
-  width: "250px",
-  ":hover": {
-    backgroundColor: "#0d3858",
-    color: "#fff",
-  },
-};
 
 export const BikeImages = {
   width: "350px",

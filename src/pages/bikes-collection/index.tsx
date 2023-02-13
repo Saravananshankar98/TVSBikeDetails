@@ -2,7 +2,6 @@ import { Button, Grid, Rating, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { linkButtonDetails } from "../../common/social-media-icon";
 import CardBikes from "../../components/card-bikes/card-bikes";
-import { selectBetting } from "../dashboard/style";
 import { LinkButton } from "./style";
 
 function BikesCollections() {
@@ -10,7 +9,7 @@ function BikesCollections() {
     // <div>BikesCollections</div>
     <Box>
       <Grid>
-        <Box sx={selectBetting}>
+        <Box >
           {" "}
           <Box>
             <Typography variant="h3">TVS Bikes</Typography>
