@@ -1,9 +1,12 @@
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import SearchIcon from "@mui/icons-material/Search";
+import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
+import { Grid, Link } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
+import TestRide from "../../../pages/test-ride/test-ride";
 import {
   Search,
   SearchIconWrapper,
@@ -22,18 +25,7 @@ function AppHeader() {
             marginLeft: "250px",
           }}
         >
-          {/* <Box sx={{ paddingTop: "15px", paddingLeft: "10px" }}>
-            <img
-              src="https://www.pngfind.com/pngs/m/543-5431679_tvs-logo-png-vector-free-download-tvs-motors.png"
-              width="150"
-              height="50"
-              alt="TVS logo"
-            />
-          </Box> */}
-
-          <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: "flex", alignItems: "flex-end" }}>
-            <Search>
+          <Search>
               <SearchIconWrapper>
                 <SearchIcon />
               </SearchIconWrapper>
@@ -42,8 +34,16 @@ function AppHeader() {
                 inputProps={{ "aria-label": "search" }}
               />
             </Search>
-          </Box>
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
+          <Grid container md={12} sx={{textAlign:"center",justifyContent:"flex-end"}}>
+            <Grid xs={1} sx={{ justifyContent:"flex-end",paddingTop:"14px"}}>
+            test Ride
+            </Grid>
+            <Grid xs={1} sx={{justifyContent:"center",paddingTop:"14px", display:"flex"}}>
+              Book Vehicle
+            </Grid>
+            <Grid
+            xs={0.3} sx={{justifyContent:"flex-end"}}>
+          <Box>
             <IconButton
               size="large"
               edge="end"
@@ -54,6 +54,8 @@ function AppHeader() {
               <AccountCircle />
             </IconButton>
           </Box>
+            </Grid>
+          </Grid>
         </Toolbar>
       </AppBar>
     </Box>

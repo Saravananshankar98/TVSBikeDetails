@@ -38,3 +38,10 @@ export const playStoreApp = [
     icon: "https://www.tvsmotor.com/tvs-apache/-/media/Feature/25-10-22/Products/Logo/apple-store-icon-2.png",
   },
 ];
+
+export const linkButtonDetails = [
+  { name: "Scooter" },
+  { name: "Motor Cycles" },
+  { name: "Mopeds" },
+  { name: "Electric" },
+];

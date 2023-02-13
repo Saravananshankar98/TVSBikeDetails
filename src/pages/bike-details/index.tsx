@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid, Tab, Tabs, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { BikeImages } from "../../components/card-bikes/style";
 
@@ -45,20 +45,18 @@ function BikeDetailsPage() {
       {/* bike FEATURES */}
       <Box>
         <h2>Features</h2>
-        <Grid container columns={{ xs: 6, sm: 6, md: 12 }}>
-          <Grid
-            xs={5}
-            sx={{
-              display: "flex",
-              paddingTop: "26px",
-              justifyContent: "center",
-            }}
-            columnSpacing={2}
-          >
-            
+        <Grid container sx={{ textAlign:"center", justifyContent:"center" }}>
+          <Box >
+      <Tabs>
+        <Tab label={"Performance"} ></Tab>
+        <Tab label={"Style"} ></Tab>
+        <Tab label={"Design"} ></Tab>
+      </Tabs>
+    </Box> 
           </Grid>
+        <Grid container columns={{ xs: 6, sm: 6, md: 12 }}>
 
-          <Grid xs={7} sx={{ display: "flex", justifyContent: "left" }}>
+          <Grid xs={5} sx={{ display: "flex", justifyContent: "left" }}>
             <Box
               component="img"
               sx={BikeImages}
@@ -66,6 +64,19 @@ function BikeDetailsPage() {
               alt={"all"}
             />
           </Grid>
+          <Grid
+            xs={7}
+            sx={{
+              display: "flex",
+              paddingTop: "26px",
+              justifyContent: "center",
+              backgroundColor:"white"
+            }}
+            columnSpacing={2}
+          >
+            
+          </Grid>
+
         </Grid>
       </Box>
       {/* bike Colours */}

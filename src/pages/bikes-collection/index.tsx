@@ -1,28 +1,13 @@
 import { Button, Grid, Rating, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import { useEffect, useState } from "react";
 import { linkButtonDetails } from "../../common/social-media-icon";
-import { TvsBikeDetailsDescriptions } from "../../common/tvs-bike-details-descriptions";
 import CardBikes from "../../components/card-bikes/card-bikes";
+import { selectBetting } from "../dashboard/style";
 import { LinkButton } from "./style";
-import { selectBetting } from "./style";
 
-function DashBoardPage() {
-  const [values, setValues] = useState({});
-  const [vehicleName, setVehicleName] = useState("Motor Cycles");
-
-  const handleFilterVehiclesChange = (value: any) => {
-    setVehicleName(value);
-  };
-
-  useEffect(() => {
-    const bikes = TvsBikeDetailsDescriptions.filter(
-      (x) => x.varient === vehicleName
-    );
-    setValues(bikes);
-  }, [values]);
-
+function BikesCollections() {
   return (
+    // <div>BikesCollections</div>
     <Box>
       <Grid>
         <Box sx={selectBetting}>
@@ -51,26 +36,17 @@ function DashBoardPage() {
         <br />
       </Grid>
       <Typography variant="h3">TVS Bikes Price List 2023 in India </Typography>
-      <Grid spacing={1} container sx={{ justifyContent: "center" }}>
+      <br />
+      <Box sx={LinkButton}>
         {linkButtonDetails.map((value) => (
-          <Grid item>
-            <Button
-              className={vehicleName === value?.name ? "button-selected" : ""}
-              sx={LinkButton}
-              onClick={() => handleFilterVehiclesChange(value?.name)}
-            >
-              {value.name}
-            </Button>
-          </Grid>
+          <Box>
+            <Button className={value ? "active" : ""}>{value.name}</Button>
+          </Box>
         ))}
-      </Grid>
-      <br />
-      <br />
-      <Grid container spacing={3} sx={{ backgroundColor: "grey" }}>
-        <CardBikes vehicleName={Object.values(values)} />
-      </Grid>
+      </Box>
+
+      <CardBikes />
     </Box>
   );
 }
-
-export default DashBoardPage;
+export default BikesCollections;

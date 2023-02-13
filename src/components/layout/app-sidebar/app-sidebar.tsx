@@ -5,13 +5,16 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import TreeItem from "@mui/lab/TreeItem";
 import TreeView from "@mui/lab/TreeView";
 import { useBikeDetailContext } from "../../context";
+import { fontSize } from "./style";
 
 function AppSideBar() {
   const { bikeNameState } = useBikeDetailContext();
   const [bikeName, setBikeName] = bikeNameState;
   const handleBikeChange =(value: string) =>{
     console.log(value);
-    setBikeName(bikeName===value?value:"");  
+    console.log("bikeName",bikeName);
+    setBikeName(""); 
+    console.log("bikeName22",bikeName);
   }
   return (
     <Drawer
@@ -38,13 +41,14 @@ function AppSideBar() {
           alt="TVS logo"
         />
       </Box>
-      <Box>
+      <Box sx={fontSize} >
         <TreeView
           aria-label="file system navigator"
           defaultCollapseIcon={<ExpandMoreIcon />}
           defaultExpandIcon={<ChevronRightIcon />}
+          sx={{ flexGrow: 1, overflowY: "auto", fontWeight:"20px" }}
         >
-          <TreeItem nodeId="1" label="Scooters">
+          <TreeItem  nodeId="1" label="Scooters">
             <TreeItem nodeId="6" label="Jupiter"  onClick={()=>handleBikeChange("Jupiter")} />
             <TreeItem nodeId="7" label="Ntorq"  onClick={()=>handleBikeChange("Ntorq")}/>
             <TreeItem nodeId="8" label="Zest 110"  onClick={()=>handleBikeChange("Zest 110")}/>

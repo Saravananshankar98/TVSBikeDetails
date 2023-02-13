@@ -19,8 +19,11 @@ function App() {
         <AppSideBar />
         <Box sx={dashboardBox}>
           {bikeName ? <BikeDetailsPage /> : <DashBoardPage />}
+          {/* <TestRide/> */}
+          {/* <BikeDetailsPage/> */}
           <AppFooter />
         </Box>
+        
       </ThemeProvider>
     </Box>
   );
