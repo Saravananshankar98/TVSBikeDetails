@@ -1,7 +1,7 @@
 import { fireEvent,render } from "@testing-library/react";
 import AppSideBar from "./app-sidebar";
 
-describe("CardBikes", () => {
+describe("AppSideBar", () => {
   let baseElement: any, container: any, screen: any;
   beforeEach(() => {
     ({ container, baseElement, ...screen } = render(<AppSideBar />));

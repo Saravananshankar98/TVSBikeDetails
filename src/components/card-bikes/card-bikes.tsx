@@ -77,7 +77,6 @@ function CardBikes(vehicleFilterDetails: any) {
                 <CardActions>
                   <Button
                     sx={buttonHover}
-                    onClick={() => console.log(bikeDetails.BikeName)}
                   >
                     Know More
                   </Button>

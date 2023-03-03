@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
 import TestRide from "./test-ride";
 
-describe("DashBoard", () => {
+describe("TestRide", () => {
   let baseElement: any, container: any, screen;
   beforeEach(() => {
     ({ container, baseElement, ...screen } = render(<TestRide />));

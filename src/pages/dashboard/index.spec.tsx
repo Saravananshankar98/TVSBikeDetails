@@ -9,8 +9,8 @@ describe("DashBoard", () => {
 
   it("Matches Snapshot", () => {
     expect(baseElement).toMatchSnapshot();
-  });
-
+  }); 
+ 
   it("Filter electric bike Details", () => {
     const electricModel = container.querySelectorAll(".MuiButtonBase-root");
     expect(electricModel[3].textContent.trim()).toEqual("Electric");

@@ -4,7 +4,7 @@ import App from "../components/App";
 const renderApp = () => {
   return render(<App />);
 };
-
+ 
 describe("App", () => {
   it("Matches Snapshot", () => {
     const { baseElement } = renderApp();
