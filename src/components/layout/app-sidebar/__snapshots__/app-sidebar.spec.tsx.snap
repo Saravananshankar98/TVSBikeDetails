@@ -61,7 +61,8 @@ exports[`CardBikes Matches Snapshot 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
                   >
-                     Scooters
+                     
+                    Scooters
                   </p>
                 </div>
               </div>
@@ -97,7 +98,8 @@ exports[`CardBikes Matches Snapshot 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
                   >
-                     MotorCycles
+                     
+                    MotorCycles
                   </p>
                 </div>
               </div>
@@ -133,7 +135,8 @@ exports[`CardBikes Matches Snapshot 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
                   >
-                     Mopeds
+                     
+                    Mopeds
                   </p>
                 </div>
               </div>
@@ -169,7 +172,8 @@ exports[`CardBikes Matches Snapshot 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
                   >
-                     Electric
+                     
+                    Electric
                   </p>
                 </div>
               </div>

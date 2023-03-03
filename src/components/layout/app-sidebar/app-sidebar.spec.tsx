@@ -1,13 +1,10 @@
-import { fireEvent, render } from "@testing-library/react";
-import { TestContextProvider } from "../../../test/test-container";
+import { fireEvent,render } from "@testing-library/react";
 import AppSideBar from "./app-sidebar";
 
 describe("CardBikes", () => {
-  let baseElement: any, container : any, screen :any;
+  let baseElement: any, container: any, screen: any;
   beforeEach(() => {
-    ({ container, baseElement, ...screen } = render(<AppSideBar />, {
-      wrapper: TestContextProvider,
-    }));
+    ({ container, baseElement, ...screen } = render(<AppSideBar />));
   });
 
   it("Matches Snapshot", () => {

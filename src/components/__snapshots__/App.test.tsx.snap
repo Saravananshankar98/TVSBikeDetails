@@ -158,7 +158,8 @@ exports[`App Matches Snapshot 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
                     >
-                       Scooters
+                       
+                      Scooters
                     </p>
                   </div>
                 </div>
@@ -194,7 +195,8 @@ exports[`App Matches Snapshot 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
                     >
-                       MotorCycles
+                       
+                      MotorCycles
                     </p>
                   </div>
                 </div>
@@ -230,7 +232,8 @@ exports[`App Matches Snapshot 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
                     >
-                       Mopeds
+                       
+                      Mopeds
                     </p>
                   </div>
                 </div>
@@ -266,7 +269,8 @@ exports[`App Matches Snapshot 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
                     >
-                       Electric
+                       
+                      Electric
                     </p>
                   </div>
                 </div>

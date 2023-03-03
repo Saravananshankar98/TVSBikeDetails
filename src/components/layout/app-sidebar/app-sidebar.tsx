@@ -4,9 +4,8 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import TreeItem from "@mui/lab/TreeItem";
 import TreeView from "@mui/lab/TreeView";
-import { useBikeDetailContext } from "../../context";
-import { fontSize } from "./style";
 import Typography from "@mui/material/Typography";
+import { fontSize } from "./style";
 
 const MotorCyclesDetails = [
   { id: "10", name: "Apache RR 310" },
@@ -28,11 +27,6 @@ const scootersDetails = [
 ];
 
 function AppSideBar() {
-  const { bikeNameState } = useBikeDetailContext();
-  const [bikeName, setBikeName] = bikeNameState;
-  const handleBikeChange = (value: string) => {
-    setBikeName("");
-  };
   return (
     <Drawer
       open
@@ -65,37 +59,89 @@ function AppSideBar() {
           defaultExpandIcon={<ChevronRightIcon />}
           sx={{ flexGrow: 1, overflowY: "auto", fontWeight: "20px" }}
         >
-          <TreeItem nodeId="1" label={<Typography variant="body1" className="font-size-16" > Scooters</Typography>}>
+          <TreeItem
+            nodeId="1"
+            label={
+              <Typography variant="body1" className="font-size-16">
+                {" "}
+                Scooters
+              </Typography>
+            }
+          >
             {scootersDetails.map((scooterName) => (
               <TreeItem
                 sx={{ fontSize: "45px" }}
                 nodeId={scooterName.id}
-                label={<Typography variant="body1"  className="font-size-16" > {scooterName.name}</Typography>}
-                onClick={() => handleBikeChange(scooterName.name)}
+                label={
+                  <Typography variant="body1" className="font-size-16">
+                    {" "}
+                    {scooterName.name}
+                  </Typography>
+                }
+                onClick={() => console.log(scooterName.name)}
               />
             ))}
           </TreeItem>
-          <TreeItem nodeId="2" label={<Typography variant="body1"  className="font-size-16" > MotorCycles</Typography>}>
+          <TreeItem
+            nodeId="2"
+            label={
+              <Typography variant="body1" className="font-size-16">
+                {" "}
+                MotorCycles
+              </Typography>
+            }
+          >
             {MotorCyclesDetails?.map((treeValue) => (
               <TreeItem
                 nodeId={treeValue.id}
-                label={<Typography variant="body1"  className="font-size-16" > {treeValue.name}</Typography>}
-                onClick={() => handleBikeChange(treeValue.name)}
+                label={
+                  <Typography variant="body1" className="font-size-16">
+                    {" "}
+                    {treeValue.name}
+                  </Typography>
+                }
+                onClick={() => console.log(treeValue.name)}
               />
             ))}
           </TreeItem>
-          <TreeItem nodeId="3" label={<Typography variant="body1"  className="font-size-16" > Mopeds</Typography>}>
+          <TreeItem
+            nodeId="3"
+            label={
+              <Typography variant="body1" className="font-size-16">
+                {" "}
+                Mopeds
+              </Typography>
+            }
+          >
             <TreeItem
               nodeId="19"
-              label={<Typography variant="body1"  className="font-size-16" > XL 100</Typography>}
-              onClick={() => handleBikeChange("XL 100")}
+              label={
+                <Typography variant="body1" className="font-size-16">
+                  {" "}
+                  XL 100
+                </Typography>
+              }
+              onClick={() => console.log("XL 100")}
             />
           </TreeItem>
-          <TreeItem nodeId="4" label={<Typography variant="body1"  className="font-size-16" > Electric</Typography>}>
+          <TreeItem
+            nodeId="4"
+            label={
+              <Typography variant="body1" className="font-size-16">
+                {" "}
+                Electric
+              </Typography>
+            }
+          >
             <TreeItem
               nodeId="20"
-              label={<Typography variant="body1" className="font-size-16" > iQube</Typography>}
-              onClick={() => handleBikeChange("iQube")}
+              label={
+                <Typography variant="body1" className="font-size-16">
+                  {" "}
+                  iQube
+                </Typography>
+              }
+              onClick={() => console.log("iQube")}
             />
           </TreeItem>
         </TreeView>

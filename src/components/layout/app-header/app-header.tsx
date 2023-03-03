@@ -41,7 +41,7 @@ function AppHeader() {
               xs={1}
               sx={{ justifyContent: "flex-end", paddingTop: "10px" }}
             >
-             <Typography variant="h5"> test Ride</Typography>
+              <Typography variant="h5"> test Ride</Typography>
             </Grid>
             <Grid
               xs={1.5}
@@ -51,7 +51,7 @@ function AppHeader() {
                 display: "flex",
               }}
             >
-             <Typography variant="h5"> Book Vehicle</Typography> 
+              <Typography variant="h5"> Book Vehicle</Typography>
             </Grid>
             <Grid xs={0.4} sx={{ justifyContent: "flex-end" }}>
               <Box>
@@ -61,7 +61,6 @@ function AppHeader() {
                   aria-label="account of current user"
                   aria-haspopup="true"
                   color="inherit"
-
                 >
                   <AccountCircle />
                 </IconButton>

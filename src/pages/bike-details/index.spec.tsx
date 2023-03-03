@@ -1,13 +1,10 @@
 import { render } from "@testing-library/react";
 import BikeDetailsPage from ".";
-import { TestContextProvider } from "../../test/test-container";
 
 describe("DashBoard", () => {
   let baseElement: any, container, screen;
   beforeEach(() => {
-    ({ container, baseElement, ...screen } = render(<BikeDetailsPage />, {
-      wrapper: TestContextProvider,
-    }));
+    ({ container, baseElement, ...screen } = render(<BikeDetailsPage />));
   });
 
   it("Matches Snapshot", () => {

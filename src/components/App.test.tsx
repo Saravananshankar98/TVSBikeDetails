@@ -1,11 +1,8 @@
 import { render } from "@testing-library/react";
 import App from "../components/App";
-import { TestContextProvider } from "../test/test-container";
 
 const renderApp = () => {
-  return render(<App />, {
-    wrapper: TestContextProvider,
-  });
+  return render(<App />);
 };
 
 describe("App", () => {

@@ -12,13 +12,9 @@ import {
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Checkbox from "@mui/material/Checkbox";
-import { useBikeDetailContext } from "../context";
 import { BikeImages, buttonHover } from "./style";
 
 function CardBikes(vehicleFilterDetails: any) {
-  const { bikeNameState } = useBikeDetailContext();
-  const [bikeName, setBikeName] = bikeNameState;
-  
   return (
     <>
       <Grid
@@ -81,7 +77,7 @@ function CardBikes(vehicleFilterDetails: any) {
                 <CardActions>
                   <Button
                     sx={buttonHover}
-                    onClick={() => setBikeName(bikeDetails.BikeName)}
+                    onClick={() => console.log(bikeDetails.BikeName)}
                   >
                     Know More
                   </Button>
