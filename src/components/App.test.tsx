@@ -1,10 +1,16 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from '../components/App';
+import { render } from "@testing-library/react";
+import App from "../components/App";
+import { TestContextProvider } from "../test/test-container";
 
+const renderApp = () => {
+  return render(<App />, {
+    wrapper: TestContextProvider,
+  });
+};
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("App", () => {
+  it("Matches Snapshot", () => {
+    const { baseElement } = renderApp();
+    expect(baseElement).toMatchSnapshot();
+  });
 });

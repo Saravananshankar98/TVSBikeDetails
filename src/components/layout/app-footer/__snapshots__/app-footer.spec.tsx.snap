@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBikes Matches Snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiBox-root css-gkyrg2"
+    >
+      <div
+        class="MuiBox-root css-9qmynf"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-znntt9-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-3 css-53px92-MuiGrid-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+            >
+              TVS CONNECT APP
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-3 css-1m42nkn-MuiGrid-root"
+          >
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              href="https://apps.apple.com/in/app/tvs-connect/id1453965748"
+              tabindex="0"
+              target="_blank"
+            >
+              <img
+                alt="Google App"
+                class="MuiBox-root css-0"
+                src="https://www.tvsmotor.com/tvs-apache/-/media/Feature/25-10-22/Products/Logo/google-play-icon.png"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              href="https://play.google.com/store/apps/details?id=com.tvsm.connect&amp;hl=en"
+              tabindex="0"
+              target="_blank"
+            >
+              <img
+                alt="Iphone app"
+                class="MuiBox-root css-0"
+                src="https://www.tvsmotor.com/tvs-apache/-/media/Feature/25-10-22/Products/Logo/apple-store-icon-2.png"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container css-1c35gzc-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-3 css-1vjut0a-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <img
+                alt="TVS logo"
+                height="80px"
+                src="https://1000logos.net/wp-content/uploads/2020/07/TVS-Motor-Logo.jpg"
+                width="275px"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-3 css-1n2nrgx-MuiGrid-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+            >
+              ADDRESS
+            </h4>
+            <p>
+              Post Box No. 4 
+              <br />
+              Harita, Hosur - 635 109 
+              <br />
+              Ph: 04344-276780 Fax: 04344-276878
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-3 css-1n2nrgx-MuiGrid-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+            >
+              CALL US ON
+            </h4>
+            <p>
+              Toll Free: 18002587555
+              <br />
+              Ph: +91-44-28332115
+              <br />
+              Fax: +91-44-28331214
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root css-1ny7o5u-MuiGrid-root"
+          >
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium customer-care-style css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              href="mailto:customercare@tvsmotor.com"
+              tabindex="0"
+              target="_blank"
+            >
+              customercare@tvsmotor.com
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+             
+            <br />
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium contact-button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              href="mailto:customercare@tvsmotor.com"
+              tabindex="0"
+              target="_blank"
+            >
+              Contact us
+               
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+             
+            <br />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-xxu1vb"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1l665s-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-5 css-1foajmc-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              © TVS Motor Company. All Rights Reserved.
+              <br />
+              Privacy Policy | Disclaimer | Cookie Policy
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-grid-xs-7 css-15t5ops-MuiGrid-root"
+          >
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1404i20-MuiButtonBase-root-MuiButton-root"
+              href="https://www.facebook.com/tvsmotorcompany/"
+              tabindex="0"
+              target="_blank"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="faceBook"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://www.facebook.com/images/fb_icon_325x325.png"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1404i20-MuiButtonBase-root-MuiButton-root"
+              href="https://twitter.com/tvsmotorcompany"
+              tabindex="0"
+              target="_blank"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="Twitter"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://cdn-icons-png.flaticon.com/512/124/124021.png"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1404i20-MuiButtonBase-root-MuiButton-root"
+              href="https://www.youtube.com/channel/UCmXFdsJtTAbbYrH7zz-lkkw"
+              tabindex="0"
+              target="_blank"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="Youtube"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/YouTube_Shiny_Icon.svg/1200px-YouTube_Shiny_Icon.svg.png"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1404i20-MuiButtonBase-root-MuiButton-root"
+              href="https://www.linkedin.com/company/tvs-motor-company/"
+              tabindex="0"
+              target="_blank"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="LinkedIn"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1404i20-MuiButtonBase-root-MuiButton-root"
+              href="https://www.instagram.com/tvsmotorcompany/"
+              tabindex="0"
+              target="_blank"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="Instagram"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

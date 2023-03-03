@@ -1,7 +1,6 @@
 import { Button, Grid, Rating, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { linkButtonDetails } from "../../common/social-media-icon";
-import CardBikes from "../../components/card-bikes/card-bikes";
 import { LinkButton } from "./style";
 
 function BikesCollections() {
@@ -43,8 +42,6 @@ function BikesCollections() {
           </Box>
         ))}
       </Box>
-
-      <CardBikes />
     </Box>
   );
 }

@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBikes Matches Snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiDrawer-root MuiDrawer-docked css-7ik032-MuiDrawer-docked"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-yu5yyz-MuiPaper-root-MuiDrawer-paper"
+      >
+        <div
+          class="MuiBox-root css-1b0a2sw"
+        >
+          <img
+            alt="TVS logo"
+            height="70"
+            src="https://1000logos.net/wp-content/uploads/2020/07/TVS-Motor-Logo.jpg"
+            width="150"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-6orinh"
+        >
+          <ul
+            aria-label="file system navigator"
+            aria-multiselectable="false"
+            class="MuiTreeView-root css-1wpi6u4-MuiTreeView-root"
+            id=":r0:"
+            role="tree"
+            tabindex="0"
+          >
+            <li
+              aria-expanded="false"
+              class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+              id=":r0:-1"
+              role="treeitem"
+              tabindex="-1"
+            >
+              <div
+                class="css-1g86id8-MuiTreeItem-content MuiTreeItem-content"
+              >
+                <div
+                  class="MuiTreeItem-iconContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiTreeItem-label"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
+                  >
+                     Scooters
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              aria-expanded="false"
+              class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+              id=":r0:-2"
+              role="treeitem"
+              tabindex="-1"
+            >
+              <div
+                class="css-1g86id8-MuiTreeItem-content MuiTreeItem-content"
+              >
+                <div
+                  class="MuiTreeItem-iconContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiTreeItem-label"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
+                  >
+                     MotorCycles
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              aria-expanded="false"
+              class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+              id=":r0:-3"
+              role="treeitem"
+              tabindex="-1"
+            >
+              <div
+                class="css-1g86id8-MuiTreeItem-content MuiTreeItem-content"
+              >
+                <div
+                  class="MuiTreeItem-iconContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiTreeItem-label"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
+                  >
+                     Mopeds
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              aria-expanded="false"
+              class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+              id=":r0:-4"
+              role="treeitem"
+              tabindex="-1"
+            >
+              <div
+                class="css-1g86id8-MuiTreeItem-content MuiTreeItem-content"
+              >
+                <div
+                  class="MuiTreeItem-iconContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiTreeItem-label"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 font-size-16 css-ahj2mt-MuiTypography-root"
+                  >
+                     Electric
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,3649 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Matches Snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="App MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-0"
+      >
+        <header
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1seytal-MuiPaper-root-MuiAppBar-root"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-uapk2y-MuiToolbar-root"
+          >
+            <div
+              class="css-qlqe4h"
+            >
+              <div
+                class="css-1iz4iln"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                  data-testid="SearchIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="MuiInputBase-root MuiInputBase-colorPrimary css-llf0lp-MuiInputBase-root"
+              >
+                <input
+                  aria-label="search"
+                  class="MuiInputBase-input css-yz9k0d-MuiInputBase-input"
+                  placeholder="Search…"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-grid-md-12 css-1azvbld-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-1 css-4a9a00-MuiGrid-root"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1qp7dsl-MuiTypography-root"
+                >
+                   test Ride
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-1.5 css-1tk4wtl-MuiGrid-root"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1qp7dsl-MuiTypography-root"
+                >
+                   Book Vehicle
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-0.4 css-fadvaw-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <button
+                    aria-haspopup="true"
+                    aria-label="account of current user"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge css-1nff31u-MuiButtonBase-root-MuiIconButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                      data-testid="AccountCircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 2.12C16.43 19.18 14.03 20 12 20z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div
+        class="MuiDrawer-root MuiDrawer-docked css-7ik032-MuiDrawer-docked"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-yu5yyz-MuiPaper-root-MuiDrawer-paper"
+        >
+          <div
+            class="MuiBox-root css-1b0a2sw"
+          >
+            <img
+              alt="TVS logo"
+              height="70"
+              src="https://1000logos.net/wp-content/uploads/2020/07/TVS-Motor-Logo.jpg"
+              width="150"
+            />
+          </div>
+          <div
+            class="MuiBox-root css-6orinh"
+          >
+            <ul
+              aria-label="file system navigator"
+              aria-multiselectable="false"
+              class="MuiTreeView-root css-1wpi6u4-MuiTreeView-root"
+              id=":r0:"
+              role="tree"
+              tabindex="0"
+            >
+              <li
+                aria-expanded="false"
+                class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+                id=":r0:-1"
+                role="treeitem"
+                tabindex="-1"
+              >
+                <div
+                  class="css-ryiu8l-MuiTreeItem-content MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                      data-testid="ChevronRightIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiTreeItem-label"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
+                    >
+                       Scooters
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                aria-expanded="false"
+                class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+                id=":r0:-2"
+                role="treeitem"
+                tabindex="-1"
+              >
+                <div
+                  class="css-ryiu8l-MuiTreeItem-content MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                      data-testid="ChevronRightIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiTreeItem-label"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
+                    >
+                       MotorCycles
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                aria-expanded="false"
+                class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+                id=":r0:-3"
+                role="treeitem"
+                tabindex="-1"
+              >
+                <div
+                  class="css-ryiu8l-MuiTreeItem-content MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                      data-testid="ChevronRightIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiTreeItem-label"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
+                    >
+                       Mopeds
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                aria-expanded="false"
+                class="MuiTreeItem-root css-16alkdk-MuiTreeItem-root"
+                id=":r0:-4"
+                role="treeitem"
+                tabindex="-1"
+              >
+                <div
+                  class="css-ryiu8l-MuiTreeItem-content MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                      data-testid="ChevronRightIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiTreeItem-label"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 font-size-16 css-1nlr3ti-MuiTypography-root"
+                    >
+                       Electric
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-91nmop"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+               
+              <h2
+                class="MuiTypography-root MuiTypography-h2 css-dfh06l-MuiTypography-root"
+              >
+                TVS Bikes
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-ry1eeo-MuiTypography-root"
+              >
+                <span
+                  aria-label="5 Stars"
+                  class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                  role="img"
+                >
+                  <span>
+                    <span
+                      class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                        data-testid="StarIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    <span
+                      class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                        data-testid="StarIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    <span
+                      class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                        data-testid="StarIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    <span
+                      class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                        data-testid="StarIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    <span
+                      class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                        data-testid="StarIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </span>
+                 Avg Rating for TVS Bikes and Scooters based on 27591 reviews
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-ry1eeo-MuiTypography-root"
+              >
+                TVS bikes price in India starts at Rs 45,241 for TVS XL100, which is the cheapest model. The most expensive TVS two wheeler is TVS Apache RR 310 priced at Rs 2.65 Lakh. The most popular models for TVS includes 4 Sports , 7 Scooters, 1 Electric, 1 Cruiser, 1Cafe Racer , 2 Commuter, 1Moped and 1 Sports Naked. Upcoming TVS bike in India include TVS ADV, TVS Apache RTR 310 , TVS iQube Electric which are expected to launch in 2023. Select a TVS motorcycle to find out its latest price, specifications, TVS Finance, offers, mileage, colors, images and more at BikeDekho. To get more details of TVS bikes, download BikeDekho App.Searching for TVS Scooters?
+              </p>
+            </div>
+            <br />
+          </div>
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-dfh06l-MuiTypography-root"
+          >
+            TVS Bikes Price List 2023 in India 
+          </h2>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-12n0uxm-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1epbgdq-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Scooter
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium button-selected css-1epbgdq-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Motor Cycles
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1epbgdq-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Mopeds
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1epbgdq-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Electric
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+          <br />
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1yxu86h-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-spacing-md-2 css-r2d2jo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Apache RTR 160"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/TVS-Apache-RTR-160-4V-130120211625.png"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Apache RTR 160
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1.18 -1.25
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        795
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        159.7
+                         cc 
+                        7000
+                         rpm 
+                        45
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Raider"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://www.tvsmotor.com/co/-/media/Feature/IB/Columbia/compressed-images/virtual-experience/Virtual-Experince/Raider/black.png"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Raider
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            92,911 -1.06
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        146
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        124.8
+                         cc 
+                        7500
+                         rpm 
+                        67
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Radeon"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://images.carandbike.com/bike-images/colors/tvs/radeon/tvs-radeon-metal-black.png?v=1586757399"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Radeon
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1.49 -1.71
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        61
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        225.9
+                         cc 
+                        7750
+                         rpm 
+                        42.95
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Apache RTR 180"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://imgd.aeplcdn.com/476x268/bw/models/tvs-apache-rtr-180-standard-156.jpg?20190103151915"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Apache RTR 180
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1.31
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        277
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        177.4
+                         cc 
+                        7000
+                         rpm 
+                        40.5
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Apache RR 310"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://www.tvsmotor.com/assets/img/brands/apche-rr310/black-bike.png"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Apache RR 310
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            2.65
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        221
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        312.2
+                         cc 
+                        7700
+                         rpm 
+                        33.1
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Apache RTR 200"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://imgd.aeplcdn.com/1056x594/n/cw/ec/49725/tvs-apache-200-front-three-quarter4.jpeg?q=75"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Apache RTR 200
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1.40 -1.45
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        281
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        197.75
+                         cc 
+                        7500
+                         rpm 
+                        35
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Ronin"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://images.carandbike.com/bike-images/colors/tvs/ronin/tvs-ronin-lightning-black.png?v=1657259375"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Ronin
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1.49 -1.71
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        61
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        225.9
+                         cc 
+                        7400
+                         rpm 
+                        42.95
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Sport"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://bd.gaadicdn.com/processedimages/tvs/tvs-sport/640X309/tvs-sport63807c644f577.jpg?tr=w-270"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Sport
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1 -1.02
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        360
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        107.75
+                         cc 
+                        4500
+                         rpm 
+                        60
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-zny2jz-MuiGrid-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19hf6u8-MuiPaper-root-MuiCard-root"
+                >
+                  <img
+                    alt="TVS Star City Plus"
+                    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10rysz3-MuiCardMedia-root"
+                    src="https://images.carandbike.com/bike-images/colors/tvs/star-city-plus/tvs-star-city-plus-black-blue.png?v=1588055845"
+                  />
+                  <div
+                    class="MuiBox-root css-dsnyvo"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-17p3wh3-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+                        >
+                          <div
+                            class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                          >
+                            TVS Star City Plus
+                          </div>
+                          <h6
+                            class="MuiTypography-root MuiTypography-subtitle1 css-1awpsyt-MuiTypography-root"
+                          >
+                            Rs.
+                            1 -1.01
+                             Lakh*
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1thszbi-MuiGrid-root"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-gtd7m8-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-rhryfs-MuiButtonBase-root-MuiCheckbox-root"
+                          >
+                            <input
+                              class="PrivateSwitchBase-input css-1m9pwf3"
+                              data-indeterminate="false"
+                              type="checkbox"
+                            />
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-havevq-MuiSvgIcon-root"
+                              data-testid="FavoriteBorderIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-uw41i8"
+                    >
+                      <span
+                        aria-label="4.5 Stars"
+                        class="MuiRating-root MuiRating-sizeMedium MuiRating-readyOnly css-h1bc3y-MuiRating-root"
+                        role="img"
+                      >
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 0%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          class="MuiRating-decimal css-34he1w-MuiRating-decimal"
+                        >
+                          <span
+                            style="width: 50%; overflow: hidden; position: absolute;"
+                          >
+                            <span
+                              class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                          <span>
+                            <span
+                              class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                                data-testid="StarBorderIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                         
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        Based On 
+                        349
+                         User Reviews
+                      </p>
+                    </div>
+                    <div
+                      class="MuiBox-root css-18qyekz"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                      >
+                        107.75
+                         cc 
+                        7500
+                         rpm 
+                        83.09
+                         
+                        KMPH
+                      </p>
+                    </div>
+                    <div
+                      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1li6ek3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Know More
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-gkyrg2"
+        >
+          <div
+            class="MuiBox-root css-9qmynf"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-znntt9-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-3 css-53px92-MuiGrid-root"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                >
+                  TVS CONNECT APP
+                </h4>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-3 css-1m42nkn-MuiGrid-root"
+              >
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-8t4xf1-MuiButtonBase-root-MuiButton-root"
+                  href="https://apps.apple.com/in/app/tvs-connect/id1453965748"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <img
+                    alt="Google App"
+                    class="MuiBox-root css-0"
+                    src="https://www.tvsmotor.com/tvs-apache/-/media/Feature/25-10-22/Products/Logo/google-play-icon.png"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-8t4xf1-MuiButtonBase-root-MuiButton-root"
+                  href="https://play.google.com/store/apps/details?id=com.tvsm.connect&amp;hl=en"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <img
+                    alt="Iphone app"
+                    class="MuiBox-root css-0"
+                    src="https://www.tvsmotor.com/tvs-apache/-/media/Feature/25-10-22/Products/Logo/apple-store-icon-2.png"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container css-1c35gzc-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-3 css-1vjut0a-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <img
+                    alt="TVS logo"
+                    height="80px"
+                    src="https://1000logos.net/wp-content/uploads/2020/07/TVS-Motor-Logo.jpg"
+                    width="275px"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-3 css-1n2nrgx-MuiGrid-root"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                >
+                  ADDRESS
+                </h4>
+                <p>
+                  Post Box No. 4 
+                  <br />
+                  Harita, Hosur - 635 109 
+                  <br />
+                  Ph: 04344-276780 Fax: 04344-276878
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-3 css-1n2nrgx-MuiGrid-root"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1lyskc2-MuiTypography-root"
+                >
+                  CALL US ON
+                </h4>
+                <p>
+                  Toll Free: 18002587555
+                  <br />
+                  Ph: +91-44-28332115
+                  <br />
+                  Fax: +91-44-28331214
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root css-1ny7o5u-MuiGrid-root"
+              >
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium customer-care-style css-8t4xf1-MuiButtonBase-root-MuiButton-root"
+                  href="mailto:customercare@tvsmotor.com"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  customercare@tvsmotor.com
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                 
+                <br />
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium contact-button css-8t4xf1-MuiButtonBase-root-MuiButton-root"
+                  href="mailto:customercare@tvsmotor.com"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  Contact us
+                   
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                 
+                <br />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-xxu1vb"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-1l665s-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-5 css-1foajmc-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1nlr3ti-MuiTypography-root"
+                >
+                  © TVS Motor Company. All Rights Reserved.
+                  <br />
+                  Privacy Policy | Disclaimer | Cookie Policy
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-grid-xs-7 css-15t5ops-MuiGrid-root"
+              >
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-vc8kxg-MuiButtonBase-root-MuiButton-root"
+                  href="https://www.facebook.com/tvsmotorcompany/"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular css-1358i5s-MuiAvatar-root"
+                  >
+                    <img
+                      alt="faceBook"
+                      class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                      src="https://www.facebook.com/images/fb_icon_325x325.png"
+                    />
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-vc8kxg-MuiButtonBase-root-MuiButton-root"
+                  href="https://twitter.com/tvsmotorcompany"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular css-1358i5s-MuiAvatar-root"
+                  >
+                    <img
+                      alt="Twitter"
+                      class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                      src="https://cdn-icons-png.flaticon.com/512/124/124021.png"
+                    />
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-vc8kxg-MuiButtonBase-root-MuiButton-root"
+                  href="https://www.youtube.com/channel/UCmXFdsJtTAbbYrH7zz-lkkw"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular css-1358i5s-MuiAvatar-root"
+                  >
+                    <img
+                      alt="Youtube"
+                      class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/YouTube_Shiny_Icon.svg/1200px-YouTube_Shiny_Icon.svg.png"
+                    />
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-vc8kxg-MuiButtonBase-root-MuiButton-root"
+                  href="https://www.linkedin.com/company/tvs-motor-company/"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular css-1358i5s-MuiAvatar-root"
+                  >
+                    <img
+                      alt="LinkedIn"
+                      class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                      src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                    />
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-vc8kxg-MuiButtonBase-root-MuiButton-root"
+                  href="https://www.instagram.com/tvsmotorcompany/"
+                  tabindex="0"
+                  target="_blank"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular css-1358i5s-MuiAvatar-root"
+                  >
+                    <img
+                      alt="Instagram"
+                      class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+                    />
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
