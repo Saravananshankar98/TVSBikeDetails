@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Saravananshankar98/TVSBikeDetails/static/css/main.e6c13ad2.css",
+    "main.js": "/Saravananshankar98/TVSBikeDetails/static/js/main.1731b285.js",
+    "static/js/787.d7e08009.chunk.js": "/Saravananshankar98/TVSBikeDetails/static/js/787.d7e08009.chunk.js",
+    "index.html": "/Saravananshankar98/TVSBikeDetails/index.html",
+    "main.e6c13ad2.css.map": "/Saravananshankar98/TVSBikeDetails/static/css/main.e6c13ad2.css.map",
+    "main.1731b285.js.map": "/Saravananshankar98/TVSBikeDetails/static/js/main.1731b285.js.map",
+    "787.d7e08009.chunk.js.map": "/Saravananshankar98/TVSBikeDetails/static/js/787.d7e08009.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1731b285.js"
+  ]
+}
